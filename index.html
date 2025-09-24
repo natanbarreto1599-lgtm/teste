@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Sala de Reunião</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Agendamento de Sala de Reunião</h1>
+
+        <form id="schedule-form">
+            <div class="form-group">
+                <label for="name">Nome do Solicitante:</label>
+                <input type="text" id="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="date">Data:</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="startTime">Hora de Início:</label>
+                <input type="time" id="startTime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="endTime">Hora de Término:</label>
+                <input type="time" id="endTime" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Assunto da Reunião:</label>
+                <input type="text" id="subject" required>
+            </div>
+
+            <button type="submit">Agendar</button>
+            <p id="message"></p>
+        </form>
+
+        <hr>
+
+        <h2>Agenda da Sala</h2>
+        <div id="schedule-list">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
