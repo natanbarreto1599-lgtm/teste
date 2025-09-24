@@ -1,4 +1,3 @@
-// SUBSTITUA A URL ABAIXO PELA SUA URL DO APPS SCRIPT
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyqAWuSjYmUIhoBJ8LA01UoAGf7kPaRuGFNL2qMj0qGFY5hDhRGhQe3tt2ESGlAPrY/exec';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -74,3 +73,4 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchSchedules(); // Carrega a agenda ao iniciar a página
 
 });
+
