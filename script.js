@@ -72,4 +72,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     fetchSchedules(); // Carrega a agenda ao iniciar a página
+
 });
